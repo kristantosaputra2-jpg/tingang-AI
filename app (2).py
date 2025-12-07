@@ -1,8 +1,5 @@
 import streamlit as st
-import os
-from langchain_community.llms import Replicate
-from langchain.agents import AgentExecutor, create_react_agent, load_tools
-from langchain import hub
+from bot import build_agent
 
 # --- 1. KONFIGURASI HALAMAN ---
 st.set_page_config(page_title="Tingang AI", page_icon="🦅")
