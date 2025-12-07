@@ -1,7 +1,3 @@
-%%writefile app.py
-import streamlit as st
-from langchain_core.messages import AIMessage
-
 # -----------------------------------------------------
 # 1. KONFIGURASI & ASET GAMBAR
 # -----------------------------------------------------
