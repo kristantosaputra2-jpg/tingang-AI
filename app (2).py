@@ -1,4 +1,4 @@
-%%writefile app.py
+%%writefile app.py (2)
 # Import semuanya dulu
 import streamlit as st
 from bot import build_agent
